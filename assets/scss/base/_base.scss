@@ -1,0 +1,33 @@
+// ***** TAG's SET *****
+*,
+*::before,
+*::after {
+    // Box Model
+    box-sizing: border-box;
+}
+html {
+    // Text
+    font-size: 62.5%;
+
+    // Animator
+    scroll-behavior: smooth;
+}
+body {
+    // Text
+    font: 1.6rem "Gordita", sans-serif;
+
+    // Other
+    user-select: none;
+}
+a {
+    // Text
+    text-decoration: none;
+}
+input,
+textarea,
+select,
+button {
+    /* Text */
+    font: inherit;
+}
+// *********************
